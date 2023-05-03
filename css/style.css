@@ -1,0 +1,151 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Netflix Sans, Helvetica Neue, Segoe UI, Roboto, Ubuntu, sans-serif;
+
+}
+
+body {
+    --button-color: #E50914;
+}
+
+.main_container {
+    height: 100vh;
+    background-image: url(../image/bg.jpg);
+    background-size: cover;
+    position: relative;
+    display: flex;
+    justify-content: center;
+}
+
+.main_container::before {
+    content: "";
+    height: 100%;
+    width: 100%;
+    background-image: linear-gradient(103.24deg, rgba(0, 8, 29, 0.9) 23.83%, rgba(0, 8, 29, 0.3) 96.1%);
+    position: absolute;
+    z-index: 1;
+    opacity: 95%;
+}
+
+.header_section {
+    width: 1448px;
+    margin: 0 auto;
+    position: absolute;
+    z-index: 2;
+    height: 80px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navbar_section {
+}
+
+.logo_section>img {
+    width: 134.47px;
+    height: 39.99px;
+}
+
+.button_section {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 20px;
+}
+
+.accordin_section select {
+    border-radius: 3px;
+    color: white;
+    font-size: 11px;
+    background-color: #0000007a;
+    padding: 6px 33px;
+    font-weight: 600;
+    outline: none;
+}
+
+.accordin_section select>option {
+    background-color: black;
+}
+
+.signin_section {
+    width: 67.26px;
+    height: 28px;
+    text-decoration: none;
+    font-weight: 600;
+    font-size: 13px;
+    color: white;
+    background-color: var(--button-color);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px;
+}
+
+.signin_section>a {
+    color: white;
+    text-decoration: none;
+}
+
+.content_section {
+    padding: 10px 415px 10px 200px;
+    position: absolute;
+    z-index: 3;
+    color: white;
+    top: 164px;
+}
+
+.content_section>h1 {
+    font-size: 60px;
+}
+
+.content_section>h2 {
+    margin: 20px 0px;
+}
+
+.content_section>p {
+    font-size: 18.5px;
+}
+
+.mail_section {
+    margin: 10px 0px;
+    display: flex;
+    gap: 15px;
+}
+
+.mail_section form>input {
+    width: 331.58px;
+    height: 48.98px;
+    border-radius: 5px;
+    padding: 10px;
+    outline: none;
+    color: white;
+    font-size: 13px;
+    background-color: #0000005c;
+    border: 1px solid #f3eeee69;
+}
+
+::placeholder {
+    color: white;
+    font-size: 13px;
+}
+
+.mail_section span>a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    font-size: 19px;
+}
+
+.mail_section span {
+    padding: 10.5px 21px;
+    width: 174.17px;
+    height: 48.9px;
+    background-color: var(--button-color);
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 9px;
+}
