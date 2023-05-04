@@ -11,7 +11,6 @@ body {
 }
 
 .main_container {
-    height: 100vh;
     background-image: url(../image/bg.jpg);
     background-size: cover;
     position: relative;
@@ -29,6 +28,8 @@ body {
     opacity: 95%;
 }
 
+/* HOME SECTION STARTS */
+
 .header_section {
     width: 1448px;
     margin: 0 auto;
@@ -38,9 +39,6 @@ body {
     display: flex;
     justify-content: space-between;
     align-items: center;
-}
-
-.navbar_section {
 }
 
 .logo_section>img {
@@ -91,7 +89,7 @@ body {
 .content_section {
     padding: 10px 415px 10px 200px;
     position: absolute;
-    z-index: 3;
+    z-index: 4;
     color: white;
     top: 164px;
 }
@@ -149,3 +147,304 @@ body {
     align-items: center;
     gap: 9px;
 }
+
+/* HOME SECTION END */
+
+/* CARD SECTION STARTS */
+.card_container {
+    width: 1448px;
+    margin: 0 auto;
+    padding-top: 600px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
+    position: relative;
+    z-index: 3;
+    left: 6px;
+}
+
+.card_section1 {
+    width: 716.12px;
+    height: 559.01px;
+    border-radius: 15px;
+    padding: 40px 75px 10px 90px;
+    /* background-image: linear-gradient(130deg, #0a143b 6%, #7d049c 59%, #460303 84%); */
+    background: radial-gradient(99.93% 134.44% at 17.93% 0%, #09143C 0%, #101338 57.21%, #400E20 99.57%);
+}
+
+.card_image_section>img {
+    width: 541.12px;
+    height: 405.82px;
+}
+
+.card_content_section {
+    color: white;
+    display: flex;
+    gap: 15px;
+    flex-direction: column;
+    padding: 0px 20px;
+}
+
+.card_content_section>h3 {
+    font-size: 20px;
+}
+
+.card_content_section>p {
+    font-size: 14px;
+}
+
+/* CARD SECTION END */
+
+/* Frequently Asked Question SECTION STARTS */
+.faq_container {
+    background-color: #03037c;
+    background-image: linear-gradient(103.24deg, rgba(0, 8, 29, 0.9) 23.100%, rgb(0 5 29) 100%);
+    color: white;
+}
+
+.faq_sub_container {
+    width: 1211px;
+    margin: 0 auto;
+    padding: 80px 0px 0px 0px;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.faq_sub_container>h1 {
+    padding: 15px 0px;
+}
+
+.faq_title_section {
+    width: 1273.26px;
+    height: 77.97px;
+    padding: 24px;
+    background-color: #132144;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.faq_title_section>i {
+    font-size: 30px;
+}
+
+.faq_content_section1 {
+    width: 1273.26px;
+    height: 0px;
+    overflow: hidden;
+    padding: 0px 27px;
+    background-color: #132144;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    border-top: 1px solid black;
+    transition: 0.5s;
+}
+
+.faq_content_section1>p {
+    font-size: 16px;
+}
+
+.faq_section:hover .faq_content_section1 {
+    transition: 0.5s;
+    height: 77.97px;
+}
+
+.faq_content_section2 {
+    width: 1273.26px;
+    height: 0px;
+    overflow: hidden;
+    padding: 0px 27px;
+    background-color: #132144;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    border-top: 1px solid black;
+    transition: 0.5s;
+}
+
+.faq_content_section2>p {
+    font-size: 16px;
+}
+
+.faq_section:hover .faq_content_section2 {
+    transition: 0.5s;
+    height: 48.97px;
+}
+
+.faq_content_section3 {
+    width: 1273.26px;
+    height: 0px;
+    overflow: hidden;
+    padding: 0px 27px;
+    background-color: #132144;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    border-top: 1px solid black;
+    transition: 0.5s;
+}
+
+.faq_content_section3>p {
+    font-size: 16px;
+}
+
+.faq_section:hover .faq_content_section3 {
+    transition: 0.5s;
+    height: 73.97px;
+}
+
+.faq_content_section4 {
+    width: 1273.26px;
+    height: 0px;
+    overflow: hidden;
+    padding: 0px 27px;
+    background-color: #132144;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    border-top: 1px solid black;
+    transition: 0.5s;
+}
+
+.faq_content_section4>p {
+    font-size: 16px;
+}
+
+.faq_section:hover .faq_content_section4 {
+    transition: 0.5s;
+    height: 48.97px;
+}
+
+.faq_content_section5 {
+    width: 1273.26px;
+    height: 0px;
+    overflow: hidden;
+    padding: 0px 27px;
+    background-color: #132144;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    border-top: 1px solid black;
+    transition: 0.5s;
+}
+
+.faq_content_section5>p {
+    font-size: 16px;
+}
+
+.faq_section:hover .faq_content_section5 {
+    transition: 0.5s;
+    height: 48.97px;
+}
+
+.faq_content_section6 {
+    width: 1273.26px;
+    height: 0px;
+    overflow: hidden;
+    padding: 0px 27px;
+    background-color: #132144;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    border-top: 1px solid black;
+    transition: 0.5s;
+}
+
+.faq_content_section6>p {
+    font-size: 16px;
+}
+
+.faq_section:hover .faq_content_section6 {
+    transition: 0.5s;
+    height: 48.97px;
+}
+
+.faq_title_section>i {
+    transition: 0.5s;
+}
+
+.faq_section:hover .faq_title_section>i {
+    transform: rotate(45deg);
+    transition: 0.5s;
+}
+
+.below_email_section {
+    margin: 26px 0px;
+}
+
+.below_email_content_section>p {
+    font-size: 19px;
+}
+
+.mail_section2 {
+    margin: 20px 0px;
+    display: flex;
+    gap: 15px;
+}
+
+.mail_section2 form>input {
+    width: 331.58px;
+    height: 48.98px;
+    border-radius: 5px;
+    padding: 10px;
+    outline: none;
+    color: white;
+    font-size: 13px;
+    background-color: #0000005c;
+    border: 1px solid #f3eeee69;
+}
+
+::placeholder {
+    color: white;
+    font-size: 13px;
+}
+
+.mail_section2 span>a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    font-size: 19px;
+}
+
+.mail_section2 span {
+    padding: 10.5px 21px;
+    width: 174.17px;
+    height: 48.9px;
+    background-color: var(--button-color);
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 9px;
+}
+
+/* Frequently Asked Question SECTION END */
+
+/* FOOTER SECTION STARTS */
+.contact_section p>a {
+    color: white;
+}
+
+.list_section {
+    display: flex;
+    gap: 180px;
+    padding: 50px 0px 30px;
+}
+
+.list1 ul li {
+    list-style: none;
+    line-height: 30px;
+}
+
+.list1 ul li>a {
+    color: white;
+}
+
+.company_copyright_section {
+    padding: 60px 0px;
+    font-size: 12px;
+}
+
+/* FOOTER SECTION END */
